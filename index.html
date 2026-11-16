@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Ajay Vishwakarma — Cybersecurity & AI Developer</title>
+  <meta name="description" content="Ajay Vishwakarma — B.Tech CSE student building Python security tools, with skills in Generative AI, LLMs, RAG concepts and databases." />
+  <meta name="theme-color" content="#07090d" />
+  <meta property="og:title" content="Ajay Vishwakarma — Cybersecurity & AI Developer" />
+  <meta property="og:description" content="Python · Cybersecurity · Generative AI. Projects, skills and certifications." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2307090d'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='monospace' font-size='30' font-weight='700' fill='%233df5c4'%3EAV%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true" data-depth="6"></canvas>
+  <div class="grid-overlay" aria-hidden="true" data-depth="14"></div>
+  <div class="orb orb-a" aria-hidden="true" data-depth="40"></div>
+  <div class="orb orb-b" aria-hidden="true" data-depth="-28"></div>
+  <canvas id="portrait" aria-hidden="true"></canvas>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#home" aria-label="Ajay Vishwakarma — home">
+      <span class="brand-mark">AV</span>
+      <span class="brand-name">AJAY VISHWAKARMA</span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home" data-link>HOME</a>
+      <a href="#about" data-link>ABOUT</a>
+      <a href="#skills" data-link>SKILLS</a>
+      <a href="#projects" data-link>PROJECTS</a>
+      <a href="#credentials" data-link>CREDENTIALS</a>
+      <a href="#contact" data-link>CONTACT</a>
+    </nav>
+    <a class="btn btn-sm nav-cta" href="#contact">Contact</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="prompt reveal"><span class="dim">ajay@portfolio</span><span class="sep">:</span><span class="path">~</span><span class="sep">$</span> whoami</p>
+        <h1 class="reveal">
+          <span class="h1-line" data-depth="10">AJAY</span>
+          <span class="h1-line outline" data-depth="18">VISHWAKARMA</span>
+        </h1>
+        <p class="role reveal">
+          <span class="caret">&gt;</span>
+          <span id="typed" aria-live="polite"></span><span class="cursor" aria-hidden="true">▌</span>
+        </p>
+        <p class="lede reveal">
+          B.Tech CSE student who builds Python tools that hide, protect and manage data —
+          from an image steganography utility to a CSV-backed banking system — with a growing
+          focus on Generative AI and LLM applications.
+        </p>
+        <div class="cta-row reveal">
+          <a class="btn" href="#projects">View projects <span aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="https://github.com/Ajay2309" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/ajay239/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <ul class="hero-stats reveal">
+          <li><b data-count="2">0</b><span>Projects</span></li>
+          <li><b data-count="7">0</b><span>Certifications</span></li>
+          <li><b data-count="4">0</b><span>Languages</span></li>
+          <li><b>2027</b><span>B.Tech</span></li>
+        </ul>
+      </div>
+
+      <aside class="hero-card reveal" aria-label="Profile">
+        <span class="float-tag ft-1" aria-hidden="true" data-depth="46">0x41 4A 41 59</span>
+        <span class="float-tag ft-2" aria-hidden="true" data-depth="-34">LSB[0] = 1</span>
+        <span class="float-tag ft-3" aria-hidden="true" data-depth="58">{ secure: true }</span>
+        <div class="id-card" id="idCard">
+          <div class="id-top">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <span class="id-title">profile.sys</span>
+            <span class="id-live"><i></i>ONLINE</span>
+          </div>
+          <figure class="photo">
+            <img src="assets/profile.jpg" alt="Portrait of Ajay Vishwakarma — rendered as an interactive particle portrait" width="720" height="881" loading="eager" decoding="async" />
+            <span class="scan" aria-hidden="true"></span>
+            <svg class="hud" viewBox="0 0 100 115" preserveAspectRatio="none" aria-hidden="true" data-depth="12">
+              <g class="ticks"></g>
+              <g class="face-box"><path d="M26 18 V12 H32 M76 18 V12 H70 M26 82 V88 H32 M76 82 V88 H70" /></g>
+              <g class="cross"><line x1="50" y1="6" x2="50" y2="12" /><line x1="50" y1="88" x2="50" y2="94" /><line x1="20" y1="49" x2="26" y2="49" /><line x1="76" y1="49" x2="82" y2="49" /></g>
+            </svg>
+            <span class="hud-label hl-top" aria-hidden="true">SCAN // ACTIVE</span>
+            <span class="hud-label hl-side" aria-hidden="true">01101001 01001010</span>
+            <span class="corner tl" aria-hidden="true"></span><span class="corner tr" aria-hidden="true"></span>
+            <span class="corner bl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+            <figcaption>
+              <span>ID // AV-2027</span>
+              <span>CSE · SEM 7</span>
+            </figcaption>
+          </figure>
+          <dl class="id-meta">
+            <div><dt>name</dt><dd>Ajay Vishwakarma</dd></div>
+            <div><dt>focus</dt><dd>Cybersecurity · GenAI</dd></div>
+            <div><dt>stack</dt><dd>Python · C++ · SQL</dd></div>
+            <div><dt>college</dt><dd>GNIOT, Greater Noida</dd></div>
+          </dl>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <header class="sec-head reveal">
+        <span class="tag">// 02 — ABOUT</span>
+        <h2>Security-minded builder,<br /><em>curious about AI.</em></h2>
+      </header>
+
+      <div class="about-grid">
+        <article class="panel reveal">
+          <p class="panel-label">A LITTLE ABOUT ME · 01 / BACKGROUND</p>
+          <h3>Learning by shipping small, working tools.</h3>
+          <p>
+            I'm a Computer Science &amp; Engineering student at Greater Noida Institute of Technology,
+            currently in my 7th semester (2023 – 2027). I like turning fundamentals — data structures,
+            file handling, databases and OOP — into practical programs I can actually run and test.
+          </p>
+          <p>
+            My cybersecurity internship project, an image steganography tool, pushed me into image
+            processing and information concealment. Alongside it I've been studying Generative AI,
+            LLMs, prompt engineering and Retrieval-Augmented Generation concepts.
+          </p>
+        </article>
+
+        <div class="about-side">
+          <article class="panel mini reveal">
+            <p class="panel-label">HOW I WORK</p>
+            <h4>Break it down.</h4>
+            <p>Small modules, clear responsibilities, usable CLI.</p>
+          </article>
+          <article class="panel mini reveal">
+            <p class="panel-label">WHAT'S NEXT</p>
+            <h4>Security meets AI.</h4>
+            <p>Exploring LLM applications and RAG alongside core security skills.</p>
+          </article>
+          <article class="panel mini quote reveal">
+            <p class="panel-label">A PERSONAL PHILOSOPHY</p>
+            <p class="q">Understand the fundamentals. Build something real. Iterate.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <header class="sec-head reveal">
+        <span class="tag">// 03 — SKILLS</span>
+        <h2>Tools &amp; <em>technologies.</em></h2>
+      </header>
+
+      <div class="skills">
+        <article class="skill reveal">
+          <h3><span class="ico">&lt;/&gt;</span> Languages</h3>
+          <ul class="chips">
+            <li><i>Py</i>Python</li><li><i>C</i>C</li><li><i>C+</i>C++</li><li><i>Ht</i>HTML</li>
+          </ul>
+        </article>
+        <article class="skill reveal">
+          <h3><span class="ico">AI</span> AI &amp; Generative AI</h3>
+          <ul class="chips">
+            <li><i>Ge</i>Generative AI</li><li><i>LL</i>LLMs</li><li><i>Pr</i>Prompt Engineering</li><li><i>RA</i>RAG Concepts</li><li><i>NL</i>NLP Fundamentals</li>
+          </ul>
+        </article>
+        <article class="skill reveal">
+          <h3><span class="ico">ML</span> Machine Learning</h3>
+          <ul class="chips">
+            <li><i>ML</i>ML Fundamentals</li><li><i>AI</i>Artificial Intelligence</li><li><i>Ap</i>AI Applications</li>
+          </ul>
+        </article>
+        <article class="skill reveal">
+          <h3><span class="ico">DB</span> Databases</h3>
+          <ul class="chips">
+            <li><i>My</i>MySQL</li><li><i>SQ</i>SQL</li><li><i>RD</i>Relational Design</li><li><i>CS</i>CSV Storage</li>
+          </ul>
+        </article>
+        <article class="skill reveal">
+          <h3><span class="ico">CS</span> Core CS</h3>
+          <ul class="chips">
+            <li><i>DS</i>Data Structures &amp; Algorithms</li><li><i>OO</i>OOP</li><li><i>DB</i>DBMS</li><li><i>FH</i>File Handling</li><li><i>DP</i>Data Persistence</li>
+          </ul>
+        </article>
+        <article class="skill reveal">
+          <h3><span class="ico">SEC</span> Cybersecurity</h3>
+          <ul class="chips">
+            <li><i>St</i>Steganography</li><li><i>Im</i>Image-based Data Hiding</li><li><i>Ic</i>Information Concealment</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <header class="sec-head reveal">
+        <span class="tag">// 04 — PROJECTS</span>
+        <h2>Work &amp; <em>projects.</em></h2>
+      </header>
+
+      <article class="project reveal">
+        <div class="p-meta">
+          <span class="p-num">01</span>
+          <span class="p-kind">PROJECT · CYBERSECURITY INTERNSHIP</span>
+        </div>
+        <div class="p-body">
+          <div class="p-main">
+            <h3>Image Steganography</h3>
+            <p>
+              A Python-based tool that securely conceals secret text messages inside digital images using
+              image processing techniques, and extracts them again when required. Supports PNG, JPEG and BMP,
+              and ships with a command-line interface for encoding and decoding.
+            </p>
+            <ul class="bullets">
+              <li>Message encoding and decoding to hide and retrieve confidential information.</li>
+              <li>Multi-format support — PNG, JPEG and BMP — for flexible hiding and extraction.</li>
+              <li>CLI to simplify user interaction and run encode / decode operations.</li>
+              <li>Separated modules for image processing, message hiding and message extraction.</li>
+            </ul>
+            <ul class="tags"><li>Python</li><li>Image Processing</li><li>Steganography</li><li>CLI</li></ul>
+            <a class="link" href="https://github.com/Ajay2309" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="p-visual" aria-label="Steganography flow">
+            <p class="v-label">// data flow</p>
+            <ol class="flow">
+              <li><b>01</b> Secret message <small>plain text</small></li>
+              <li><b>02</b> Encode <small>embed in image pixels</small></li>
+              <li class="hot"><b>03</b> Stego image <small>PNG · JPEG · BMP</small></li>
+              <li><b>04</b> Decode <small>extract hidden bits</small></li>
+              <li><b>05</b> Original message <small>recovered</small></li>
+            </ol>
+          </div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="p-meta">
+          <span class="p-num">02</span>
+          <span class="p-kind">PROJECT · PYTHON · FILE HANDLING</span>
+        </div>
+        <div class="p-body">
+          <div class="p-main">
+            <h3>Bank Management System</h3>
+            <p>
+              A menu-driven banking application in Python that simulates essential banking operations,
+              with CSV-based file handling for persistent storage and retrieval of records.
+            </p>
+            <ul class="bullets">
+              <li>Account creation, deposits, withdrawals and balance inquiries.</li>
+              <li>CSV persistence so banking records survive between runs.</li>
+              <li>Transaction workflows that update account data and keep records consistent.</li>
+            </ul>
+            <ul class="tags"><li>Python</li><li>CSV</li><li>File Handling</li><li>Menu-driven CLI</li></ul>
+            <a class="link" href="https://github.com/Ajay2309" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="p-visual" aria-label="Banking operations">
+            <p class="v-label">// operations</p>
+            <ol class="menu">
+              <li><b>1</b> Create account</li>
+              <li><b>2</b> Deposit</li>
+              <li><b>3</b> Withdraw</li>
+              <li><b>4</b> Balance inquiry</li>
+              <li class="hot"><b>↳</b> Save to accounts.csv</li>
+            </ol>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- CREDENTIALS -->
+    <section class="section" id="credentials">
+      <header class="sec-head reveal">
+        <span class="tag">// 05 — CREDENTIALS</span>
+        <h2>Education &amp; <em>certifications.</em></h2>
+      </header>
+
+      <div class="cred-grid">
+        <article class="panel reveal">
+          <p class="panel-label">EDUCATION</p>
+          <h3>B.Tech, Computer Science &amp; Engineering</h3>
+          <p class="sub">Greater Noida Institute of Technology</p>
+          <p class="meta">2023 – 2027 · Currently in 7th semester</p>
+
+          <p class="panel-label gap">ACHIEVEMENTS</p>
+          <ul class="bullets">
+            <li>Built a Python image steganography application during a cybersecurity internship project.</li>
+            <li>Implemented secret message hiding and extraction across multiple image formats.</li>
+          </ul>
+        </article>
+
+        <article class="panel reveal">
+          <p class="panel-label">CERTIFICATIONS</p>
+          <ol class="timeline">
+            <li><time>Jan 2025</time><b>Cybersecurity Analyst</b><span>Tata Group, Forage</span></li>
+            <li><time>Jul 2024</time><b>Introduction to Career Skills in Software Development</b><span>LinkedIn</span></li>
+            <li><time>Jul 2023</time><b>Photoshop Course</b><span>STP Computer Education</span></li>
+            <li><time>Jun 2023</time><b>HTML Course</b><span>STP Computer Education</span></li>
+            <li><time>Sep 2021</time><b>MySQL Database with Python</b><span>Machine Learning</span></li>
+            <li><time>Sep 2021</time><b>Python Foundation with Data Structures and Algorithms</b><span>Machine Learning</span></li>
+            <li><time>Aug 2021</time><b>Python for Data Science</b><span>Cognitive Class</span></li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <header class="sec-head reveal">
+        <span class="tag">// 06 — CONTACT</span>
+        <h2>Let's <em>connect.</em></h2>
+      </header>
+
+      <div class="contact-grid reveal">
+        <a class="c-card" href="mailto:ajayvishwakarma9711@gmail.com">
+          <span class="c-k">EMAIL</span>
+          <span class="c-v">ajayvishwakarma9711@gmail.com</span>
+        </a>
+        <a class="c-card" href="tel:+919711969836">
+          <span class="c-k">PHONE</span>
+          <span class="c-v">+91 97119 69836</span>
+        </a>
+        <a class="c-card" href="https://github.com/Ajay2309" target="_blank" rel="noopener">
+          <span class="c-k">GITHUB</span>
+          <span class="c-v">github.com/Ajay2309 ↗</span>
+        </a>
+        <a class="c-card" href="https://www.linkedin.com/in/ajay239/" target="_blank" rel="noopener">
+          <span class="c-k">LINKEDIN</span>
+          <span class="c-v">linkedin.com/in/ajay239 ↗</span>
+        </a>
+      </div>
+      <button class="btn copy" id="copyEmail" type="button">Copy email</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Ajay Vishwakarma</span>
+    <span class="dim">Built with HTML · CSS · JS</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="particles-data.js"></script>
+  <script src="portrait.js"></script>
+</body>
+</html>
